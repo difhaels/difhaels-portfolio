@@ -2,10 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-.trapezoid {
-	border-top: 80px solid #555;
+.trapezoid1 {
+	border-bottom: 70px solid #CB1DCD;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 350px;
+}
+.trapezoid2 {
+	border-bottom: 70px solid #E455AE;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
 	height: 0;
 	width: 700px;
+	opacity: 97%;
 }
