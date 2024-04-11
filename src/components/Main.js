@@ -12,13 +12,7 @@ export default function Main(){
         <div className="h-screen border-[20px] border-[#FDF500] bg-[#272932] z-0">
 
             <div className='text-center'>
-                <h1 className='text-5xl'>Hello</h1>
-                <h1 className='text-5xl'>Hello</h1>
-                <h1 className='text-5xl'>Hello</h1>
-                <h1 className='text-5xl'>Hello</h1>
-                <h1 className='text-5xl'>Hello</h1>
-                <h1 className='text-5xl'>Hello</h1>
-                <button onClick={() => navigate("Project")}> Project</button>
+                <button > Project</button>
             </div>
 
 
@@ -27,12 +21,12 @@ export default function Main(){
 
                 <div className="w-full flex justify-between fixed -bottom-[55px] z-40">
                     <div className="flex">
-                        <img src={home} alt="home" className="w-10 mr-6"/>
-                        <img src={sosmed} alt="sosmed" className="w-10"/>
+                        <img src={home} alt="home" className="w-10 mr-6 invert-[1]"/>
+                        <img src={sosmed} alt="sosmed" className="w-10 invert-[1]"/>
                     </div>
                     <div className="flex">
-                        <img src={project} alt="project" className="w-10"/>
-                        <img src={certificate} alt="certificate" className="w-10 ml-6"/>
+                        <img src={project} alt="project" className="w-10 invert-[1] cursor-pointer" onClick={() => navigate("Project")}/>
+                        <img src={certificate} alt="certificate" className="w-10 ml-6 invert-[1]"/>
                     </div>
                 </div>
 
