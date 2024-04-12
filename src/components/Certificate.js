@@ -6,13 +6,13 @@ import sosmed from './img/sosmed.png';
 import project from './img/project.png';
 import certificate from './img/certificate.png';
 
-export default function Main(){
+export default function Certificate(){
     const navigate = useNavigate();
     return (
         <div className="h-screen border-[20px] border-[#FDF500] bg-[#272932] z-0">
 
             <div className='text-center'>
-                <h1 className="text-5xl text-white">Main</h1>
+                <h1 className="text-5xl text-white">Certificate</h1>
             </div>
 
 
@@ -39,4 +39,4 @@ export default function Main(){
 
         </div>
     )
-}
+};
