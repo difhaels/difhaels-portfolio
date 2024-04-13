@@ -8,8 +8,9 @@ import certificate from './img/certificate.png';
 
 export default function Main(){
     const navigate = useNavigate();
+    const color = 'custom-border4';
     return (
-        <div className="h-screen border-[20px] border-[#FDF500] bg-[#272932] z-0">
+        <div className={`h-screen border-[20px] ${color} bg-[#272932] z-0`}>
 
             <div className='text-center'>
                 <h1 className="text-5xl text-white">Main</h1>

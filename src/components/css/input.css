@@ -17,3 +17,16 @@
 	width: 700px;
 	opacity: 97%;
 }
+
+.custom-border1 {
+	@apply border-[#9370DB];
+}
+.custom-border2 {
+	@apply border-[#710000];
+}
+.custom-border3 {
+	@apply border-[#1AC5B0]
+}
+.custom-border4 {
+	@apply border-[#FDF500];
+}
