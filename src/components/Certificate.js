@@ -21,12 +21,12 @@ export default function Certificate(){
 
                 <div className="w-full flex justify-between fixed -bottom-[55px] z-40">
                     <div className="flex">
-                        <img src={home} alt="home" className="w-10 mr-6 invert-[1]" onClick={() => navigate("/")}/>
-                        <img src={sosmed} alt="sosmed" className="w-10 invert-[1]" onClick={() => navigate("/Sosmed")}/>
+                        <img src={home} alt="home" className="w-10 mr-6 invert-[1] cursor-pointer hover:scale-110" onClick={() => navigate("/")}/>
+                        <img src={sosmed} alt="sosmed" className="w-10 invert-[1] cursor-pointer hover:scale-110" onClick={() => navigate("/Sosmed")}/>
                     </div>
                     <div className="flex">
-                        <img src={project} alt="project" className="w-10 invert-[1] cursor-pointer" onClick={() => navigate("/Project")}/>
-                        <img src={certificate} alt="certificate" className="w-10 ml-6 invert-[1]" onClick={() => navigate("/Certificate")}/>
+                        <img src={project} alt="project" className="w-10 invert-[1] cursor-pointer hover:scale-110" onClick={() => navigate("/Project")}/>
+                        <img src={certificate} alt="certificate" className="w-10 ml-6 invert-[1] cursor-pointer hover:scale-110" onClick={() => navigate("/Certificate")}/>
                     </div>
                 </div>
 
