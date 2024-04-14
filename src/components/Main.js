@@ -1,10 +1,10 @@
 import { useNavigate } from "react-router-dom";
 import './css/output.css';
-import sentiBg from './img/senti-bg.png';
-import home from './img/home.png';
-import sosmed from './img/sosmed.png';
-import project from './img/project.png';
-import certificate from './img/certificate.png';
+import sentiBg from './img/senti/senti-bg.png';
+import home from './img/icon/home.png';
+import sosmed from './img/icon/sosmed.png';
+import project from './img/icon/project.png';
+import certificate from './img/icon/certificate.png';
 
 export default function Main(){
     const navigate = useNavigate();
