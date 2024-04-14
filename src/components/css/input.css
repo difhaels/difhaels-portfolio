@@ -30,3 +30,7 @@
 .custom-border4 {
 	@apply border-[#FDF500];
 }
+
+.nav-icon {
+	@apply invert-[1] cursor-pointer hover:scale-110;
+}
