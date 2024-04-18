@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom";
 import './css/output.css';
-import sentiBg from './img/senti/senti-bg.png';
 import home from './img/icon/home.png';
 import sosmed from './img/icon/sosmed.png';
 import project from './img/icon/project.png';
@@ -30,14 +29,7 @@ export default function Sosmed(){
                         <img src={certificate} alt="certificate" className="w-9 h-9 ml-6 nav-icon" onClick={() => navigate("/Certificate")}/>
                     </div>
                 </div>
-
             </div>
-
-
-            <div className='fixed bottom-0  left-1/2 transform -translate-x-1/2 z-30'>
-                <img src={sentiBg} alt='senti-bg' className='w-64 2xl:w-96'/>
-            </div>
-
         </div>
     )
 };
